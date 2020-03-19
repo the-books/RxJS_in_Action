@@ -1,0 +1,23 @@
+{
+  "name": "rxjs_in_action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the-books/RxJS_in_Action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the-books/RxJS_in_Action/issues"
+  },
+  "homepage": "https://github.com/the-books/RxJS_in_Action#readme",
+  "devDependencies": {
+    "http-server": "^0.12.1"
+  }
+}
