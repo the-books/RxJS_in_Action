@@ -4,11 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <script>
+
+    function handleError() {
+      console.log('handleError');
+    }
+    function handleClick() {
+      console.log('handleClick');
+    }
+  </script>
 </head>
 <body>
-  <input id="input" type="text"/>
+  <input id="search" type="text"/>
+  <ul id="results"></ul>
+
+  <img
+    height="300"
+    width="300"
+    src="https://previews.123rf.com/images/dionisvera/dionisvera1304/dionisvera130400046/19451482-%EC%9E%8E%EA%B3%BC-%EB%B9%A8%EA%B0%84-%EC%82%AC%EA%B3%BC.jp"
+    onerror="handleError()"
+    onclick="handleClick()"
+  />
   <script src="https://unpkg.com/rxjs/bundles/rxjs.umd.min.js"></script>
-  <script src="/js/main.js"></script>
-  <script src="/js/ex3-10.js"></script>
+  <!-- <script src="/js/main.js"></script>
+  <script src="/js/ex4/app.js"></script> -->
+  <!-- <script src="/js/ex4/ex4-8.js"></script> -->
 </body>
 </html>
